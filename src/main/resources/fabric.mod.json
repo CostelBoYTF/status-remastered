@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "status-plus",
+	"version": "${version}",
+	"name": "Status Remastered",
+	"description": "Just a tiny thing trying its best to look important. ",
+	"authors": [
+		"CostelBoYT"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/status-remastered",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/status-plus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.status.StatusPlus"
+		],
+		"client": [
+			"org.status.StatusClient"
+		]
+	},
+	"mixins": [
+
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
